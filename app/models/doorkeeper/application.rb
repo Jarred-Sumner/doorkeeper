@@ -5,6 +5,10 @@ module Doorkeeper
     self.table_name  = :oauth_applications
     self.primary_key = 'uid'
 
+    def id
+      self.uid
+    end
+
     belongs_to :owner, :class_name => "User"
 
     has_many :access_grants, :dependent => :destroy

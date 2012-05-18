@@ -127,7 +127,7 @@
 			"file": "app/models/doorkeeper/application.rb",
 			"settings":
 			{
-				"buffer_size": 1994,
+				"buffer_size": 1993,
 				"line_ending": "Unix"
 			}
 		}
@@ -216,6 +216,7 @@
 	},
 	"file_history":
 	[
+		"/Users/jarred/Builds/doorkeeper/lib/doorkeeper/oauth/access_token_request.rb",
 		"/Users/jarred/Builds/doorkeeper/app/controllers/doorkeeper/application_controller.rb",
 		"/Users/jarred/Builds/doorkeeper/lib/generators/doorkeeper/templates/migration.rb",
 		"/Users/jarred/Builds/doorkeeper/app/models/doorkeeper/application.rb",
@@ -271,7 +272,6 @@
 		"/Users/jarred/Code/Lockitron/db/seeds.rb",
 		"/Users/jarred/Code/Lockitron/test/functional/v1/manage_controller_test.rb",
 		"/Users/jarred/Code/Lockitron/test/functional/contact_controller_test.rb",
-		"/Users/jarred/Builds/doorkeeper/lib/doorkeeper/oauth/access_token_request.rb",
 		"/Users/jarred/Code/Lockitron/app/controllers/v1/permissions_controller.rb",
 		"/Users/jarred/Code/Lockitron/app/controllers/v1/authorization_controller.rb",
 		"/Users/jarred/Code/Lockitron/app/assets/stylesheets/v1/o_auth.css.scss",
@@ -525,8 +525,8 @@
 						"selection":
 						[
 							[
-								494,
-								494
+								592,
+								592
 							]
 						],
 						"settings":
@@ -608,15 +608,15 @@
 					"file": "app/models/doorkeeper/application.rb",
 					"settings":
 					{
-						"buffer_size": 1994,
+						"buffer_size": 1993,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								806,
-								806
+								735,
+								735
 							]
 						],
 						"settings":
@@ -626,7 +626,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 26.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -682,6 +682,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"access_token_request",
+				"lib/doorkeeper/oauth/access_token_request.rb"
+			],
 			[
 				"application.rb",
 				"app/models/doorkeeper/application.rb"
@@ -1189,10 +1193,6 @@
 			[
 				"documentation",
 				"app/views/v1/manage/documentation.html.erb"
-			],
-			[
-				"show.json.rabl",
-				"app/views/v1/keys/show.json.rabl"
 			]
 		],
 		"width": 0.0
