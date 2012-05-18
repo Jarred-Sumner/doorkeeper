@@ -2,7 +2,9 @@ module Doorkeeper
   class Application < ActiveRecord::Base
     include Doorkeeper::OAuth::Helpers
 
-    self.table_name = :oauth_applications
+    self.table_name  = :oauth_applications
+    self.primary_key = 'uid'
+
 
     has_many :access_grants, :dependent => :destroy
     has_many :access_tokens, :dependent => :destroy
@@ -12,10 +14,11 @@ module Doorkeeper
     validates :name, :secret, :redirect_uri, :presence => true
     validates :uid, :presence => true, :uniqueness => true
     validate :validate_redirect_uri
+    validates_presence_of :owner, :if => :should_confirm?
 
     before_validation :generate_uid, :generate_secret, :on => :create
 
-    attr_accessible :name, :redirect_uri
+    attr_accessible :name, :redirect_uri, :uid, :secret, :redirect_uri
 
     def self.column_names_with_table
       self.column_names.map { |c| "oauth_applications.#{c}" }
@@ -45,6 +48,10 @@ module Doorkeeper
 
     def generate_secret
       self.secret = UniqueToken.generate_for :secret, self.class
+    end
+
+    def should_confirm?
+      Doorkeeper.configuration.should_confirm_application_owner?
     end
   end
 end

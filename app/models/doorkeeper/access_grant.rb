@@ -10,7 +10,8 @@ module Doorkeeper
     belongs_to :application
 
     validates :resource_owner_id, :application_id, :token, :expires_in, :redirect_uri, :presence => true
-
+    
+    attr_accessible :resource_owner_id, :application_id, :token, :expires_in, :redirect_uri, :created_at, :revoked_at, :scopes
     before_validation :generate_token, :on => :create
 
     def accessible?
