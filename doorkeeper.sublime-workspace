@@ -1,0 +1,1214 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"opt",
+				"opts_or_token"
+			],
+			[
+				"argum",
+				"arguments_list"
+			],
+			[
+				"redirec",
+				"redirect_uri"
+			],
+			[
+				"oauth_authoriza",
+				"oauth_authorization_codes"
+			],
+			[
+				"sor",
+				"sorb	sort_by { |e| .. }"
+			],
+			[
+				"format",
+				"format_start_time"
+			],
+			[
+				"uuid",
+				"UUID"
+			],
+			[
+				"def",
+				"defs	def self .. end"
+			],
+			[
+				"cl",
+				"cla	class BlankSlate .. initialize .. end"
+			],
+			[
+				"long",
+				"longitude"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"curl",
+				"closing_curly_braces"
+			],
+			[
+				"lines",
+				"lines_as_char_array"
+			],
+			[
+				"open",
+				"opening_curly_braces"
+			],
+			[
+				"http",
+				"http_start_index"
+			],
+			[
+				"httt",
+				"http_start_index"
+			],
+			[
+				"htt",
+				"http_start_index"
+			],
+			[
+				"start",
+				"start_index"
+			],
+			[
+				"proc",
+				"process_server_blocks"
+			],
+			[
+				"line",
+				"line_with_block_type"
+			],
+			[
+				"find_h",
+				"find_http_block_start"
+			],
+			[
+				"read",
+				"read_lines"
+			],
+			[
+				"home",
+				"home_ending_from"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/controllers/doorkeeper/applications_controller.rb",
+			"settings":
+			{
+				"buffer_size": 1333,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/generators/doorkeeper/templates/migration.rb",
+			"settings":
+			{
+				"buffer_size": 1464,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/doorkeeper/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 185,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/doorkeeper/application.rb",
+			"settings":
+			{
+				"buffer_size": 1994,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 94.0,
+		"selected_items":
+		[
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"objective",
+				"Set Syntax: Objective-C"
+			],
+			[
+				"object",
+				"Set Syntax: Objective-C"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"Markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"snippet",
+				"Snippet: #include <…>"
+			],
+			[
+				"sni",
+				"Snippet: main()"
+			],
+			[
+				"Objec",
+				"Set Syntax: Objective-C"
+			],
+			[
+				"objec",
+				"Set Syntax: Objective-C"
+			],
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jarred/Builds/doorkeeper/app/controllers/doorkeeper/application_controller.rb",
+		"/Users/jarred/Builds/doorkeeper/lib/generators/doorkeeper/templates/migration.rb",
+		"/Users/jarred/Builds/doorkeeper/app/models/doorkeeper/application.rb",
+		"/Users/jarred/Builds/doorkeeper/lib/doorkeeper/config.rb",
+		"/Users/jarred/Builds/doorkeeper/app/models/doorkeeper/access_grant.rb",
+		"/Users/jarred/Builds/doorkeeper/app/models/doorkeeper/access_token.rb",
+		"/Users/jarred/Builds/doorkeeper/lib/doorkeeper/doorkeeper_for.rb",
+		"/Users/jarred/Code/Lockitron/config/routes.rb",
+		"/Users/jarred/Code/Lockitron/app/controllers/v1/manage_controller.rb",
+		"/Users/jarred/Code/Lockitron/doc/app/index.html",
+		"/Users/jarred/Code/Lockitron/app/controllers/api/mobile_controller.rb",
+		"/Users/jarred/Code/Lockitron/app/views/v1/manage/documentation/_unlocking.html.erb",
+		"/Users/jarred/Code/Lockitron/app/views/v1/manage/documentation/_locks.html.erb",
+		"/Users/jarred/Code/Lockitron/app/views/v1/manage/documentation/_authentication.html.erb",
+		"/Users/jarred/Code/Lockitron/app/controllers/v1/lock_controller.rb",
+		"/Users/jarred/Code/Lockitron/app/views/v1/manage/documentation/_deleting.html.erb",
+		"/Users/jarred/Code/Lockitron/app/views/v1/manage/documentation/_inviting.html.erb",
+		"/Users/jarred/Code/Lockitron/app/views/v1/manage/documentation/_locking.html.erb",
+		"/Users/jarred/Code/Lockitron/app/helpers/v1/manage_helper.rb",
+		"/Users/jarred/Code/Lockitron/public/css/new/main.css",
+		"/Users/jarred/Code/Lockitron/app/models/user.rb",
+		"/Users/jarred/Code/Lockitron/app/controllers/dashboard_controller.rb",
+		"/Users/jarred/Code/Lockitron/app/controllers/admin/locks_controller.rb",
+		"/Users/jarred/Code/Lockitron/app/controllers/v1/logs_controller.rb",
+		"/Users/jarred/Code/Lockitron/app/controllers/admin/logs_controller.rb",
+		"/Users/jarred/Code/Lockitron/log/development.log",
+		"/Users/jarred/Code/Lockitron/db/schema.rb",
+		"/Users/jarred/Code/Lockitron/.backup/development.sqlite3",
+		"/Users/jarred/Code/Lockitron/app/views/doorkeeper/applications/index.html.erb",
+		"/Users/jarred/Code/Lockitron/test/functional/v1/oauth.rb",
+		"/Users/jarred/Code/Lockitron/config/application.rb",
+		"/Users/jarred/Code/Lockitron/config/initializers/doorkeeper.rb",
+		"/Users/jarred/Code/Lockitron/app/views/doorkeeper/authorizations/new.html.erb",
+		"/Users/jarred/Code/Lockitron/app/views/v1/manage/documentation.html.erb",
+		"/Users/jarred/Code/Lockitron/app/views/v1/manage/documentation/_reference.html.erb",
+		"/Users/jarred/Code/Lockitron/app/controllers/v1/key_controller.rb",
+		"/Users/jarred/Code/Lockitron/app/controllers/v1/user_controller.rb",
+		"/Users/jarred/Code/Lockitron/Gemfile",
+		"/Users/jarred/Code/Lockitron/db/migrate/20120517051210_create_doorkeeper_tables.rb",
+		"/Users/jarred/Code/Lockitron/app/assets/javascripts/v1/oauth.js.coffee",
+		"/Users/jarred/Code/Lockitron/app/views/doorkeeper/applications/show.html.erb",
+		"/Users/jarred/Code/Lockitron/app/views/layouts/application.html.erb",
+		"/Users/jarred/Code/Lockitron/app/views/v1/o_auth/_form.html.erb",
+		"/Users/jarred/Code/Lockitron/app/views/doorkeeper/authorized_applications/index.html.erb",
+		"/Users/jarred/Code/Lockitron/tmp/cache/sass/04ce7dc25b74709665bb9da172a2b73ffe717b47/o_auth.css.scssc",
+		"/Users/jarred/Code/Lockitron/app/views/admin/apis/show.html.erb",
+		"/Users/jarred/Code/Lockitron/app/models/log.rb",
+		"/Users/jarred/Code/Lockitron/lib/api_constraints.rb",
+		"/Users/jarred/Code/Lockitron/app/controllers/application_controller.rb",
+		"/Users/jarred/Code/Lockitron/app/controllers/account_controller.rb",
+		"/Users/jarred/Code/Lockitron/db/migrate/20120517201042_make_resource_owner_id_a_text.rb",
+		"/Users/jarred/Code/Lockitron/config/database.yml",
+		"/Users/jarred/Code/Lockitron/db/seeds.rb",
+		"/Users/jarred/Code/Lockitron/test/functional/v1/manage_controller_test.rb",
+		"/Users/jarred/Code/Lockitron/test/functional/contact_controller_test.rb",
+		"/Users/jarred/Builds/doorkeeper/lib/doorkeeper/oauth/access_token_request.rb",
+		"/Users/jarred/Code/Lockitron/app/controllers/v1/permissions_controller.rb",
+		"/Users/jarred/Code/Lockitron/app/controllers/v1/authorization_controller.rb",
+		"/Users/jarred/Code/Lockitron/app/assets/stylesheets/v1/o_auth.css.scss",
+		"/Users/jarred/Code/Lockitron/app/views/layouts/v1/manage.html.erb",
+		"/Users/jarred/Code/Lockitron/app/views/layouts/v1/oauth.html.erb",
+		"/Users/jarred/Code/Lockitron/app/controllers/admin/users_controller.rb",
+		"/Users/jarred/Code/Lockitron/app/controllers/v1/keys_controller.rb",
+		"/Users/jarred/Builds/doorkeeper/lib/doorkeeper/oauth/authorization/code.rb",
+		"/Users/jarred/Builds/doorkeeper/lib/doorkeeper/oauth/authorization/token.rb",
+		"/Users/jarred/Code/Lockitron/Gemfile.lock",
+		"/Users/jarred/Code/Lockitron/app/controllers/v1/o_auth_controller.rb",
+		"/Users/jarred/Code/Lockitron/db/migrate/20120517050505_drop_oauth2_clients_and_oauth2_authorization.rb",
+		"/Users/jarred/Code/Lockitron/db/migrate/20120517002036_create_oauth2_provider_models.rb",
+		"/Users/jarred/Code/Lockitron/app/views/v1/o_auth/allow.html.erb",
+		"/Users/jarred/Code/Lockitron/config/initializers/oauth2.rb",
+		"/Users/jarred/Code/Lockitron/app/helpers/v1/o_auth_helper.rb",
+		"/Users/jarred/Code/Lockitron/app/helpers/account_helper.rb",
+		"/Users/jarred/Code/Lockitron/app/views/v1/o_auth/index.html.erb",
+		"/Users/jarred/Code/Lockitron/app/views/v1/o_auth/show.html.erb",
+		"/Users/jarred/Code/Lockitron/app/views/v1/o_auth/new.html.erb",
+		"/Users/jarred/Code/Lockitron/app/controllers/application_controller.rb.rails2",
+		"/Users/jarred/Code/Lockitron/app/views/layouts/v1/o_auth.html.erb",
+		"/Users/jarred/Code/Lockitron/app/views/v1/o_auth/_create_api_keys.html.erb",
+		"/Users/jarred/Code/Lockitron/app/views/v1/o_auth/_api_keys.html.erb",
+		"/Users/jarred/Code/Lockitron/public/assets/application.css",
+		"/Users/jarred/Code/Lockitron/config/initializers/formtastic.rb",
+		"/Users/jarred/Code/Lockitron/app/assets/stylesheets/v1/manage.css.scss",
+		"/Users/jarred/Code/Lockitron/app/views/v1/oauth/index.html.erb",
+		"/Users/jarred/Code/Lockitron/.gitignore",
+		"/Users/jarred/Code/Lockitron/app/models/api.rb",
+		"/Users/jarred/Code/Lockitron/public/css/dashboard.css",
+		"/Users/jarred/Code/Lockitron/app/views/dashboard/settings.html.erb",
+		"/Users/jarred/Code/Lockitron/app/views/v1/manage/documentation/_overview.html.erb",
+		"/Users/jarred/Code/Lockitron/app/views/account/login.html.erb",
+		"/Users/jarred/Code/Lockitron/app/views/v1/manage/login.html.erb",
+		"/Users/jarred/Code/Lockitron/config/locales/en.yml",
+		"/Users/jarred/Code/Lockitron/config/routes.rb.rails2",
+		"/Users/jarred/Code/Lockitron/app/views/v1/manage/secrets.html.erb",
+		"/Users/jarred/Code/Lockitron/app/views/v1/keys/show.json.rabl",
+		"/Users/jarred/Code/Lockitron/lib/key_access.rb",
+		"/Users/jarred/Code/Lockitron/db/migrate/20120514224610_create_oauth2_provider_models.rb",
+		"/Users/jarred/Code/Lockitron/app/models/lock.rb",
+		"/Users/jarred/Code/Lockitron/app/models/permission.rb",
+		"/Users/jarred/Code/Lockitron/doc/app/files/app/controllers/admin/locks_controller_rb.html",
+		"/Users/jarred/Code/Lockitron/app/views/v1/logs/show.json.rabl",
+		"/Users/jarred/Code/Lockitron/app/models/session.rb",
+		"/Users/jarred/Code/Lockitron/app/controllers/access_controller.rb",
+		"/Users/jarred/Code/Lockitron/app/controllers/admin/apis_controller.rb",
+		"/Users/jarred/Code/Lockitron/app/views/admin/apis/new.html.erb",
+		"/Users/jarred/Code/Lockitron/app/views/admin/apis/_form.html.erb",
+		"/Users/jarred/Code/Lockitron/app/models/device.rb",
+		"/Users/jarred/Code/Lockitron/config/initializers/session_store.rb",
+		"/Users/jarred/Code/Lockitron/db/migrate/20120513191903_add_status_code_to_log.rb",
+		"/Users/jarred/Code/Lockitron/db/migrate/20120513050233_add_from_cookie_to_session.rb",
+		"/Users/jarred/Code/Lockitron/db/migrate/20120513062950_change_oauth_to_string_in_session.rb",
+		"/Users/jarred/Code/Lockitron/db/migrate/20120513052045_change_expiration_to_datetime_in_session.rb",
+		"/Users/jarred/Code/Lockitron/app/views/notifier/change_email_notification.erb",
+		"/Users/jarred/Code/Lockitron/db/migrate/20120513025849_rename_rememberme_to_session.rb",
+		"/Users/jarred/Code/Lockitron/db/migrate/20110601085914_add_expiration_to_rememberme.rb",
+		"/Users/jarred/Code/Lockitron/db/migrate/20110428234653_create_remembermes.rb",
+		"/Users/jarred/Code/Lockitron/db/migrate/20100514231515_create_users.rb",
+		"/Users/jarred/Code/Lockitron/app/views/admin/users/show.html.erb",
+		"/Users/jarred/Code/Lockitron/app/views/admin/remembermes/show.html.erb",
+		"/Users/jarred/Code/Lockitron/app/views/admin/remembermes/new.html.erb",
+		"/Users/jarred/Code/Lockitron/app/views/admin/remembermes/index.html.erb",
+		"/Users/jarred/Code/Lockitron/app/views/admin/remembermes/edit.html.erb",
+		"/Users/jarred/Code/Lockitron/app/views/admin/remembermes/all.html.erb",
+		"/Users/jarred/Code/Lockitron/app/views/admin/_adminheader.html.erb",
+		"/Users/jarred/Code/Lockitron/app/controllers/admin/remembermes_controller.rb",
+		"/Users/jarred/Code/Lockitron/app/controllers/admin/sessions_controller.rb",
+		"/Users/jarred/Code/Lockitron/app/helpers/sessions_helper.rb",
+		"/Users/jarred/Code/Lockitron/test/functional/sessions_controller_test.rb"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"Lock",
+			".example",
+			"admin?",
+			".argument",
+			"redirect_to",
+			"@current_user",
+			"door",
+			"authorization",
+			"td",
+			"tr",
+			"check_curr",
+			"login",
+			"get",
+			"@current_user",
+			"\n@current_user =",
+			"\n@current_user = ",
+			"@current_user =",
+			"log(",
+			"log",
+			"\nsession[:user]",
+			"session[:user]",
+			"Session",
+			"session",
+			"clear_app_session",
+			"Rememberme",
+			"user",
+			"rememberme",
+			"@rememberme",
+			"rememberme",
+			"api_v1",
+			"m.",
+			"admin",
+			"\")",
+			"log",
+			"invite",
+			"to_a",
+			"end",
+			"logs",
+			"permission.logs",
+			"app_id",
+			"@sentence",
+			"false",
+			"ip",
+			" ",
+			"lock_open",
+			"stathat",
+			"stat_hat",
+			"stathat",
+			"id",
+			"permission",
+			":methods => :valid?",
+			":valid?",
+			"permission.valid?",
+			"valid?",
+			"\n\n\n\nvalid?",
+			"valid?",
+			"key_footer",
+			"' %>",
+			"tutorial",
+			"owns",
+			"unregistered_at",
+			"role == \"admin\"",
+			"role == \"owner\"",
+			"self.role == \"owner\"",
+			"permission.role == \"owner\"",
+			"permission.role == \"guest\"",
+			"permission.role == \"admin\"",
+			"is_valid",
+			"permission",
+			"is_admin",
+			"is_valid",
+			"@permission",
+			"rack.session",
+			"KEY",
+			"flash",
+			"flash[:notice]",
+			"flash[:error]",
+			"flash[:error",
+			"read_attribute",
+			"tz",
+			"Time.",
+			"device",
+			"@direction",
+			"[:direction]",
+			"login",
+			"	<div class=\"location\">in <a class='map' href=\"#\">New York City<div class='link_indicator'> »</div></a></div>",
+			"<div class=\"location\">in <a class='map' href=\"#\">New York City",
+			" »",
+			"<a class=\"email_user\" href=\"mailto:jarred@jarredsumner.com?&subject=Hello from Lockitron&body=I am going to figure out an actual template later.\">",
+			"				<div class=\"description\">This user lives 3.1 miles away and hasn't been contacted yet</div>\n",
+			"<div class=\"person unselectable\">",
+			"<div class=\"person\">",
+			"<div class=\"person ",
+			"//",
+			"// ",
+			"//",
+			"latitude",
+			"gsub!",
+			"block",
+			"By"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"current_resource_owner",
+			"div",
+			"Session",
+			"session",
+			"@session",
+			"v1",
+			"@response",
+			"",
+			":methods => :is_valid",
+			"permission.is_valid",
+			"permission.owner?",
+			"permission.guest?",
+			"permission.admin?",
+			"valid?",
+			"admin?",
+			"valid?",
+			"#flash",
+			"flash.now[:notice]",
+			"flash.now[:error]",
+			"	<div class=\"location\">in <a class='map' href=\"#\">New York City <div class='link_indicator'> »</div></a></div>",
+			"<div class=\"location\">in <a class='map' href=\"#\">New York City<div class='link_indicator'> »</div>",
+			"",
+			"<a class=\"email_user\" href=\"mailto:jarred@jarredsumner.com?&subject=Hello from Lockitron&body=I am going to figure out an actual template later.\" target='new'>",
+			"",
+			"<a class=\"person unselectable\" href=\"mailto:jarred@jarredsumner.com?&subject=\"Hello from Lockitron\"&body=\"I\"m going to figure out an actual template later.\">",
+			"<div class=\"person unselectable\">",
+			"<div class=\"person unselectable",
+			"#",
+			"			",
+			"gsub",
+			"part"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/controllers/doorkeeper/applications_controller.rb",
+					"settings":
+					{
+						"buffer_size": 1333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								494,
+								494
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "lib/generators/doorkeeper/templates/migration.rb",
+					"settings":
+					{
+						"buffer_size": 1464,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								824,
+								824
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/layouts/doorkeeper/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								185,
+								185
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/models/doorkeeper/application.rb",
+					"settings":
+					{
+						"buffer_size": 1994,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								806,
+								806
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"application.rb",
+				"app/models/doorkeeper/application.rb"
+			],
+			[
+				"ayout",
+				"app/views/layouts/doorkeeper/application.html.erb"
+			],
+			[
+				"applications_controller",
+				"app/controllers/doorkeeper/applications_controller.rb"
+			],
+			[
+				"application_controller",
+				"app/controllers/doorkeeper/application_controller.rb"
+			],
+			[
+				"migration.rb",
+				"lib/generators/doorkeeper/templates/migration.rb"
+			],
+			[
+				"access_grant",
+				"app/models/doorkeeper/access_grant.rb"
+			],
+			[
+				"access_token",
+				"app/models/doorkeeper/access_token.rb"
+			],
+			[
+				"migration",
+				"lib/generators/doorkeeper/templates/migration.rb"
+			],
+			[
+				"config",
+				"lib/doorkeeper/config.rb"
+			],
+			[
+				"doorkeeper.r",
+				"lib/doorkeeper/doorkeeper_for.rb"
+			],
+			[
+				"user.rb",
+				"app/models/user.rb"
+			],
+			[
+				"manage_controller",
+				"app/controllers/v1/manage_controller.rb"
+			],
+			[
+				"manage_helper",
+				"app/helpers/v1/manage_helper.rb"
+			],
+			[
+				"mobile_controller",
+				"app/controllers/api/mobile_controller.rb"
+			],
+			[
+				"_unlocking",
+				"app/views/v1/manage/documentation/_unlocking.html.erb"
+			],
+			[
+				"_locks.ht",
+				"app/views/v1/manage/documentation/_locks.html.erb"
+			],
+			[
+				"uahtn",
+				"app/views/v1/manage/documentation/_authentication.html.erb"
+			],
+			[
+				"_authen",
+				"app/views/v1/manage/documentation/_authentication.html.erb"
+			],
+			[
+				"getting_started",
+				"app/views/v1/manage/getting_started.html.erb"
+			],
+			[
+				"show.json",
+				"app/views/v1/keys/show.json.rabl"
+			],
+			[
+				"lock_controller",
+				"app/controllers/v1/lock_controller.rb"
+			],
+			[
+				"dashboard_controller",
+				"app/controllers/dashboard_controller.rb"
+			],
+			[
+				"main.css",
+				"public/css/new/main.css"
+			],
+			[
+				"manag_helper",
+				"app/helpers/v1/manage_helper.rb"
+			],
+			[
+				"log_controller",
+				"app/controllers/v1/logs_controller.rb"
+			],
+			[
+				"logs_controller",
+				"app/controllers/admin/logs_controller.rb"
+			],
+			[
+				"develop",
+				"log/development.log"
+			],
+			[
+				"routes.rb",
+				"config/routes.rb"
+			],
+			[
+				"development",
+				".backup/development.sqlite3"
+			],
+			[
+				"schema",
+				"db/schema.rb"
+			],
+			[
+				"locks_controller",
+				"app/controllers/admin/locks_controller.rb"
+			],
+			[
+				"development.log",
+				"log/development.log"
+			],
+			[
+				"_refere",
+				"app/views/v1/manage/documentation/_reference.html.erb"
+			],
+			[
+				"doorkeindex.html.erb",
+				"app/views/doorkeeper/applications/index.html.erb"
+			],
+			[
+				"_reference",
+				"app/views/v1/manage/documentation/_reference.html.erb"
+			],
+			[
+				"document",
+				"app/views/v1/manage/documentation.html.erb"
+			],
+			[
+				"authorize.html",
+				"app/views/doorkeeper/authorizations/new.html.erb"
+			],
+			[
+				"doorke",
+				"config/initializers/doorkeeper.rb"
+			],
+			[
+				"doorkeep/show",
+				"app/views/doorkeeper/applications/show.html.erb"
+			],
+			[
+				"doorkeeper/index",
+				"app/views/doorkeeper/applications/index.html.erb"
+			],
+			[
+				"oauth.css",
+				"tmp/cache/sass/04ce7dc25b74709665bb9da172a2b73ffe717b47/o_auth.css.scssc"
+			],
+			[
+				"oauth.js.coff",
+				"app/assets/javascripts/v1/oauth.js.coffee"
+			],
+			[
+				"log.rb",
+				"app/models/log.rb"
+			],
+			[
+				"doorkeeper",
+				"db/migrate/20120517051210_create_doorkeeper_tables.rb"
+			],
+			[
+				"user_controller",
+				"app/controllers/v1/user_controller.rb"
+			],
+			[
+				"api_constra",
+				"lib/api_constraints.rb"
+			],
+			[
+				"account_controller",
+				"app/controllers/account_controller.rb"
+			],
+			[
+				"gemfile",
+				"Gemfile"
+			],
+			[
+				"make",
+				"db/migrate/20120517201042_make_resource_owner_id_a_text.rb"
+			],
+			[
+				"developme",
+				"log/development.log"
+			],
+			[
+				"make_r",
+				"db/migrate/20120517201042_make_resource_owner_id_a_text.rb"
+			],
+			[
+				"deve",
+				"log/development.log"
+			],
+			[
+				"datab",
+				"config/database.yml"
+			],
+			[
+				"seed.",
+				"db/seeds.rb"
+			],
+			[
+				"test/functio",
+				"test/functional/v1/oauth.rb"
+			],
+			[
+				"test/functional",
+				"test/functional/v1/oauth.rb"
+			],
+			[
+				"test/function",
+				"test/functional/v1/manage_controller_test.rb"
+			],
+			[
+				"function/",
+				"test/functional/contact_controller_test.rb"
+			],
+			[
+				"key_controller",
+				"app/controllers/v1/key_controller.rb"
+			],
+			[
+				"devel",
+				"log/development.log"
+			],
+			[
+				"controllers/v1/",
+				"app/controllers/v1/permissions_controller.rb"
+			],
+			[
+				"controllers/v1",
+				"app/controllers/v1/lock_controller.rb"
+			],
+			[
+				"users_controller",
+				"app/controllers/admin/users_controller.rb"
+			],
+			[
+				"permissions_controller",
+				"app/controllers/v1/permissions_controller.rb"
+			],
+			[
+				"keys_controller",
+				"app/controllers/v1/keys_controller.rb"
+			],
+			[
+				"oauth.html.erb",
+				"app/views/layouts/v1/oauth.html.erb"
+			],
+			[
+				"applications.html.er",
+				"app/views/doorkeeper/applications/index.html.erb"
+			],
+			[
+				"door",
+				"config/initializers/doorkeeper.rb"
+			],
+			[
+				"manage.html.erb",
+				"app/views/layouts/v1/manage.html.erb"
+			],
+			[
+				"gemfile.lock",
+				"Gemfile.lock"
+			],
+			[
+				"application_controll",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"authorization",
+				"app/controllers/v1/authorization_controller.rb"
+			],
+			[
+				"authoriz",
+				"app/controllers/v1/authorization_controller.rb"
+			],
+			[
+				"o",
+				"app/controllers/v1/o_auth_controller.rb"
+			],
+			[
+				"create",
+				"db/migrate/20120517002036_create_oauth2_provider_models.rb"
+			],
+			[
+				"drop_o",
+				"db/migrate/20120517050505_drop_oauth2_clients_and_oauth2_authorization.rb"
+			],
+			[
+				"create_oauth",
+				"db/migrate/20120517002036_create_oauth2_provider_models.rb"
+			],
+			[
+				"authoriza",
+				"app/controllers/v1/authorization_controller.rb"
+			],
+			[
+				"authori",
+				"app/controllers/v1/authorization_controller.rb"
+			],
+			[
+				"oauth2",
+				"config/initializers/oauth2.rb"
+			],
+			[
+				"o_auth",
+				"app/controllers/v1/o_auth_controller.rb"
+			],
+			[
+				"application_c",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"allow",
+				"app/views/v1/o_auth/allow.html.erb"
+			],
+			[
+				"o_aut",
+				"app/helpers/v1/o_auth_helper.rb"
+			],
+			[
+				"helper",
+				"app/helpers/account_helper.rb"
+			],
+			[
+				"application.html.erb",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"_form",
+				"app/views/v1/o_auth/_form.html.erb"
+			],
+			[
+				"allow.html",
+				"app/views/v1/o_auth/allow.html.erb"
+			],
+			[
+				"_form.",
+				"app/views/v1/o_auth/_form.html.erb"
+			],
+			[
+				"new.h",
+				"app/views/v1/o_auth/new.html.erb"
+			],
+			[
+				"account",
+				"app/controllers/account_controller.rb"
+			],
+			[
+				"application_contor",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"v1/show.html",
+				"app/views/v1/o_auth/show.html.erb"
+			],
+			[
+				"v1/new",
+				"app/views/v1/o_auth/new.html.erb"
+			],
+			[
+				"o_auth.html.erb",
+				"app/views/layouts/v1/o_auth.html.erb"
+			],
+			[
+				"o_index.html.erb",
+				"app/views/v1/o_auth/index.html.erb"
+			],
+			[
+				"o_auth.css",
+				"app/assets/stylesheets/v1/o_auth.css.scss"
+			],
+			[
+				"_create",
+				"app/views/v1/o_auth/_create_api_keys.html.erb"
+			],
+			[
+				"o_auth_controller",
+				"app/controllers/v1/o_auth_controller.rb"
+			],
+			[
+				"application.css",
+				"public/assets/application.css"
+			],
+			[
+				"form",
+				"config/initializers/formtastic.rb"
+			],
+			[
+				"api_keys",
+				"app/views/v1/o_auth/_api_keys.html.erb"
+			],
+			[
+				"o_auth_c",
+				"app/controllers/v1/o_auth_controller.rb"
+			],
+			[
+				"manage.css",
+				"app/assets/stylesheets/v1/manage.css.scss"
+			],
+			[
+				"o_auth/ind",
+				"app/views/v1/o_auth/index.html.erb"
+			],
+			[
+				"manage",
+				"app/views/layouts/v1/manage.html.erb"
+			],
+			[
+				"oauth",
+				"app/controllers/v1/o_auth_controller.rb"
+			],
+			[
+				"docume",
+				"app/views/v1/manage/documentation.html.erb"
+			],
+			[
+				"_overview",
+				"app/views/v1/manage/documentation/_overview.html.erb"
+			],
+			[
+				"docuem",
+				"app/views/v1/manage/documentation.html.erb"
+			],
+			[
+				"dashboard.css",
+				"public/css/dashboard.css"
+			],
+			[
+				"settings.html",
+				"app/views/dashboard/settings.html.erb"
+			],
+			[
+				"o_a",
+				"app/controllers/v1/o_auth_controller.rb"
+			],
+			[
+				"documen",
+				"app/views/v1/manage/documentation.html.erb"
+			],
+			[
+				"login.html",
+				"app/views/account/login.html.erb"
+			],
+			[
+				"login.html.erb",
+				"app/views/account/login.html.erb"
+			],
+			[
+				"",
+				"config/routes.rb"
+			],
+			[
+				"en.yml",
+				"config/locales/en.yml"
+			],
+			[
+				"mana",
+				"app/controllers/v1/manage_controller.rb"
+			],
+			[
+				"oa",
+				"app/controllers/v1/o_auth_controller.rb"
+			],
+			[
+				"oau",
+				"config/initializers/oauth2.rb"
+			],
+			[
+				"o_au",
+				"app/controllers/v1/o_auth_controller.rb"
+			],
+			[
+				"api.rb",
+				"app/models/api.rb"
+			],
+			[
+				"application",
+				"config/application.rb"
+			],
+			[
+				"permission.rb",
+				"app/models/permission.rb"
+			],
+			[
+				"secrets.html",
+				"app/views/v1/manage/secrets.html.erb"
+			],
+			[
+				"documentation",
+				"app/views/v1/manage/documentation.html.erb"
+			],
+			[
+				"show.json.rabl",
+				"app/views/v1/keys/show.json.rabl"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 211.0,
+	"status_bar_visible": true
+}

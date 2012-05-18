@@ -52,7 +52,7 @@ module Doorkeeper
     end
 
     def should_confirm?
-      Doorkeeper.configuration.should_confirm_application_owner?
+      Doorkeeper.configuration.should_confirm_application_owner
     end
   end
 end
