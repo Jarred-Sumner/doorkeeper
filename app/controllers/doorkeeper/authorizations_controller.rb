@@ -14,7 +14,7 @@ class Doorkeeper::AuthorizationsController < Doorkeeper::ApplicationController
     end
   end
 
-  def trusted_auth
+  def trusted
     if @application = Application.find_by_secret(params[:client_secret]) && (@application.privileged? || @application.owner_id == current_resource_owner.id) 
       @access_token                   = AccessToken.new
       @access_token.resource_owner_id = current_resource_owner.id
