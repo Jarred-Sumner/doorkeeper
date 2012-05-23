@@ -108,6 +108,22 @@
 			}
 		},
 		{
+			"file": "lib/doorkeeper/oauth/access_token_request.rb",
+			"settings":
+			{
+				"buffer_size": 3662,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/doorkeeper/access_token.rb",
+			"settings":
+			{
+				"buffer_size": 1968,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "lib/generators/doorkeeper/templates/migration.rb",
 			"settings":
 			{
@@ -127,7 +143,23 @@
 			"file": "app/models/doorkeeper/application.rb",
 			"settings":
 			{
-				"buffer_size": 1993,
+				"buffer_size": 2028,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/doorkeeper/tokens_controller.rb",
+			"settings":
+			{
+				"buffer_size": 710,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/doorkeeper/oauth/authorization/token.rb",
+			"settings":
+			{
+				"buffer_size": 1054,
 				"line_ending": "Unix"
 			}
 		}
@@ -216,13 +248,14 @@
 	},
 	"file_history":
 	[
+		"/Users/jarred/Builds/doorkeeper/app/models/doorkeeper/access_token.rb",
+		"/Users/jarred/Builds/doorkeeper/spec/factories/access_token.rb",
 		"/Users/jarred/Builds/doorkeeper/lib/doorkeeper/oauth/access_token_request.rb",
 		"/Users/jarred/Builds/doorkeeper/app/controllers/doorkeeper/application_controller.rb",
 		"/Users/jarred/Builds/doorkeeper/lib/generators/doorkeeper/templates/migration.rb",
 		"/Users/jarred/Builds/doorkeeper/app/models/doorkeeper/application.rb",
 		"/Users/jarred/Builds/doorkeeper/lib/doorkeeper/config.rb",
 		"/Users/jarred/Builds/doorkeeper/app/models/doorkeeper/access_grant.rb",
-		"/Users/jarred/Builds/doorkeeper/app/models/doorkeeper/access_token.rb",
 		"/Users/jarred/Builds/doorkeeper/lib/doorkeeper/doorkeeper_for.rb",
 		"/Users/jarred/Code/Lockitron/config/routes.rb",
 		"/Users/jarred/Code/Lockitron/app/controllers/v1/manage_controller.rb",
@@ -342,8 +375,7 @@
 		"/Users/jarred/Code/Lockitron/app/views/admin/_adminheader.html.erb",
 		"/Users/jarred/Code/Lockitron/app/controllers/admin/remembermes_controller.rb",
 		"/Users/jarred/Code/Lockitron/app/controllers/admin/sessions_controller.rb",
-		"/Users/jarred/Code/Lockitron/app/helpers/sessions_helper.rb",
-		"/Users/jarred/Code/Lockitron/test/functional/sessions_controller_test.rb"
+		"/Users/jarred/Code/Lockitron/app/helpers/sessions_helper.rb"
 	],
 	"find":
 	{
@@ -510,7 +542,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -525,8 +557,8 @@
 						"selection":
 						[
 							[
-								592,
-								592
+								168,
+								168
 							]
 						],
 						"settings":
@@ -540,15 +572,71 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lib/doorkeeper/oauth/access_token_request.rb",
+					"settings":
+					{
+						"buffer_size": 3662,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								536,
+								536
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/models/doorkeeper/access_token.rb",
+					"settings":
+					{
+						"buffer_size": 1968,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								707,
+								707
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 123.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 3,
 					"file": "lib/generators/doorkeeper/templates/migration.rb",
 					"settings":
 					{
@@ -576,7 +664,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 4,
 					"file": "app/views/layouts/doorkeeper/application.html.erb",
 					"settings":
 					{
@@ -604,19 +692,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 5,
 					"file": "app/models/doorkeeper/application.rb",
 					"settings":
 					{
-						"buffer_size": 1993,
+						"buffer_size": 2028,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								735,
-								735
+								912,
+								912
 							]
 						],
 						"settings":
@@ -626,7 +714,63 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 26.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/controllers/doorkeeper/tokens_controller.rb",
+					"settings":
+					{
+						"buffer_size": 710,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "lib/doorkeeper/oauth/authorization/token.rb",
+					"settings":
+					{
+						"buffer_size": 1054,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -683,8 +827,24 @@
 		"selected_items":
 		[
 			[
+				"access_token",
+				"app/models/doorkeeper/access_token.rb"
+			],
+			[
+				"token.rb",
+				"lib/doorkeeper/oauth/authorization/token.rb"
+			],
+			[
+				"token",
+				"app/models/doorkeeper/access_token.rb"
+			],
+			[
 				"access_token_request",
 				"lib/doorkeeper/oauth/access_token_request.rb"
+			],
+			[
+				"access_token.rb",
+				"spec/factories/access_token.rb"
 			],
 			[
 				"application.rb",
@@ -709,10 +869,6 @@
 			[
 				"access_grant",
 				"app/models/doorkeeper/access_grant.rb"
-			],
-			[
-				"access_token",
-				"app/models/doorkeeper/access_token.rb"
 			],
 			[
 				"migration",
@@ -1181,18 +1337,6 @@
 			[
 				"application",
 				"config/application.rb"
-			],
-			[
-				"permission.rb",
-				"app/models/permission.rb"
-			],
-			[
-				"secrets.html",
-				"app/views/v1/manage/secrets.html.erb"
-			],
-			[
-				"documentation",
-				"app/views/v1/manage/documentation.html.erb"
 			]
 		],
 		"width": 0.0
