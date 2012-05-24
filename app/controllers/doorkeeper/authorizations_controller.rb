@@ -24,7 +24,7 @@ class Doorkeeper::AuthorizationsController < Doorkeeper::ApplicationController
         @access_token.expires_in        = nil
         @access_token.save
         # Yeah, this is extremeley messy.
-        render :inline => "{ access_token: \"#{@access_token.token}\", expires_in: null, token_type: \"bearer\" }", :status => 200
+        render :inline => @token.as_json, :status => 200
       else
         render :nothing => true, :status => 401
       end
@@ -53,6 +53,10 @@ class Doorkeeper::AuthorizationsController < Doorkeeper::ApplicationController
   def authorization
     authorization_params = params.has_key?(:authorization) ? params[:authorization] : params
     @authorization ||= Doorkeeper::OAuth::AuthorizationRequest.new(current_resource_owner, authorization_params)
+  end
+
+  def inline_access_token
+    @token = { :access_token => @access_token.token, :expires_in => @access_token.expires_in, :token_type => "bearer" }
   end
 
 end
