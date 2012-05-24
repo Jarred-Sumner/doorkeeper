@@ -15,15 +15,19 @@ class Doorkeeper::AuthorizationsController < Doorkeeper::ApplicationController
   end
 
   def trusted
-    if @application = Doorkeeper::Application.find_by_secret(params[:client_secret]) && (@application.privileged? || @application.owner_id == current_resource_owner.id) 
-      @access_token                   = Doorkeeper::AccessToken.new
-      @access_token.resource_owner_id = current_resource_owner.id
-      @access_token.application_id    = @application.id
-      @access_token.expires_in        = 15.years.from_now.seconds
-      @access_token.save
-      render :json => @access_token.as_json, :status => 200
+    if @application = Doorkeeper::Application.find(params[:client_id])
+      if @application.privileged? || @user = User.authenticate(params[:username], params[:password])
+        @access_token                   = Doorkeeper::AccessToken.new
+        @access_token.resource_owner_id = @user.id
+        @access_token.application_id    = @application.id
+        @access_token.expires_in        = 15.years.from_now.seconds
+        @access_token.save
+        render :json => @access_token.as_json, :status => 200
+      else
+        render :nothing => true, :status => 401
+      end
     else
-      render :nothing => true, :status => 403
+      render :nothing => true, :status => 400
     end
   end
 
