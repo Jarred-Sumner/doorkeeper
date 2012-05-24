@@ -1,7 +1,7 @@
 class Doorkeeper::AuthorizationsController < Doorkeeper::ApplicationController
   before_filter :authenticate_resource_owner!
   include ActionView::Helpers::DateHelper
-  
+
   def new
     if authorization.valid?
       if authorization.access_token_exists?
@@ -21,7 +21,7 @@ class Doorkeeper::AuthorizationsController < Doorkeeper::ApplicationController
         @access_token                   = Doorkeeper::AccessToken.new
         @access_token.resource_owner_id = @user.id
         @access_token.application_id    = @application.id
-        @access_token.expires_in        = 15.years.from_now.seconds
+        @access_token.expires_in        = nil
         @access_token.save
         render :json => @access_token.as_json, :status => 200
       else
