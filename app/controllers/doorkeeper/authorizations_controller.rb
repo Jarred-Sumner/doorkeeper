@@ -25,10 +25,10 @@ class Doorkeeper::AuthorizationsController < Doorkeeper::ApplicationController
         @access_token.save
         render :inline => access_token, :status => 200
       else
-        render :html => "<a href=\"http://www.flickr.com/photos/girliemac/6508102407/\"><img src='http://farm8.staticflickr.com/7006/6508102407_4daeef6529_o.jpg'/></a>", :status => 418
+        render :inline => "<a href=\"http://www.flickr.com/photos/girliemac/6508102407/\"><img src='http://farm8.staticflickr.com/7006/6508102407_4daeef6529_o.jpg'/></a>", :status => 418
       end
     else
-      render :html => "<img src=\"/assets/potato.gif\"/>", :status => 400
+      render :inline => "<img src=\"/assets/potato.gif\"/>", :status => 400
     end
   end
 
