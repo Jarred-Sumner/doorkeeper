@@ -32,7 +32,7 @@ module Doorkeeper
 
     def self.authorized_for(resource_owner)
       joins(:authorized_applications).
-        where(:oauth_access_tokens => { :resource_owner_id => resource_owner.id, :api_key => false } )
+        where(:oauth_access_tokens => { :resource_owner_id => resource_owner.id } )
     end
 
     def validate_redirect_uri

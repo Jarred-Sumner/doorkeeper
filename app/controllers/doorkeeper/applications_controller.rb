@@ -22,7 +22,7 @@ module Doorkeeper
     def show
       @application = Application.find_by_uid_and_owner_id(params[:id], current_resource_owner.id)
     end
-
+    
     def edit
       @application = Application.find_by_uid_and_owner_id(params[:id], current_resource_owner.id)
     end
