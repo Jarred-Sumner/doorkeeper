@@ -45,6 +45,11 @@ module Doorkeeper
       errors.add(:redirect_uri, "must be a valid URI.")
     end
 
+    def api_key
+      @access_token ||= Doorkeeper::AccessToken.find_by_api_key_and_application_id(true, self.id) || generate_api_key!
+    end
+
+
     private
 
     def generate_uid
@@ -67,10 +72,6 @@ module Doorkeeper
       @access_token.api_key           = true
       @access_token.save
       @access_token
-    end
-
-    def api_key
-      @access_token ||= Doorkeeper::AccessToken.find_by_api_key_and_application_id(true, self.id) || generate_api_key!
     end
 
   end
