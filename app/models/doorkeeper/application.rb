@@ -70,15 +70,8 @@ module Doorkeeper
     end
 
     def api_key
-      @access_token ||= Doorkeeper::AccessToken.find_by_api_key_and_application_id(true, self.id)
+      @access_token ||= Doorkeeper::AccessToken.find_by_api_key_and_application_id(true, self.id) || generate_api_key!
     end
 
-    def find_or_create_api_key!
-      if api_key.present?
-        return api_key
-      else
-        return generate_api_key!
-      end
-    end
   end
 end

@@ -30,7 +30,7 @@ class CreateDoorkeeperTables < ActiveRecord::Migration
       t.string    :application_id,    :null => false
       t.string    :token,             :null => false
       t.string    :refresh_token
-      t.boolean   :api_key            :default => false
+      t.boolean   :api_key,           :default => false
       t.integer  :expires_in
       t.datetime :revoked_at
       t.datetime :created_at,        :null => false
