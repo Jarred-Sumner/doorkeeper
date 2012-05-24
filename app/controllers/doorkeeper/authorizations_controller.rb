@@ -1,6 +1,7 @@
 class Doorkeeper::AuthorizationsController < Doorkeeper::ApplicationController
   before_filter :authenticate_resource_owner!
-
+  include ActionView::Helpers::DateHelper
+  
   def new
     if authorization.valid?
       if authorization.access_token_exists?
