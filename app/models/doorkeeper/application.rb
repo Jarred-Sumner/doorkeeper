@@ -21,10 +21,10 @@ module Doorkeeper
     validate :validate_redirect_uri
     validates_presence_of :owner, :if => :should_confirm?
 
-    before_validation :generate_uid, :generate_secret, :on => :create
+    before_validation :generate_uid, :generate_secret, :generate_api_key!, :on => :create
 
     attr_accessible :name, :redirect_uri, :uid, :secret, :redirect_uri
-    attr_readonly :privileged
+    attr_readonly :privileged, :api_key
 
     def self.column_names_with_table
       self.column_names.map { |c| "oauth_applications.#{c}" }
@@ -32,7 +32,7 @@ module Doorkeeper
 
     def self.authorized_for(resource_owner)
       joins(:authorized_applications).
-        where(:oauth_access_tokens => { :resource_owner_id => resource_owner.id })
+        where(:oauth_access_tokens => { :resource_owner_id => resource_owner.id, :api_key => false } )
     end
 
     def validate_redirect_uri
@@ -57,6 +57,28 @@ module Doorkeeper
 
     def should_confirm?
       Doorkeeper.configuration.should_confirm_application_owner
+    end
+
+    def generate_api_key!
+      @access_token = Doorkeeper::AccessToken.new
+      @access_token.resource_owner_id = self.owner_id
+      @access_token.application_id    = self.id
+      @access_token.expires_in        = nil
+      @access_token.api_key           = true
+      @access_token.save
+      @access_token
+    end
+
+    def api_key
+      @access_token ||= Doorkeeper::AccessToken.find_by_api_key_and_application_id(true, self.id)
+    end
+
+    def find_or_create_api_key!
+      if api_key.present?
+        return api_key
+      else
+        return generate_api_key!
+      end
     end
   end
 end

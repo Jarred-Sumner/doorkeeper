@@ -16,20 +16,19 @@ class Doorkeeper::AuthorizationsController < Doorkeeper::ApplicationController
   end
 
   def trusted
-    if @application = Doorkeeper::Application.find(params[:client_id])
-      if (@user = User.authenticate(params[:username], params[:password])).present? && (@application.privileged? || @user.id == @application.owner_id)
+    if @application = Doorkeeper::Application.find_by_id(params[:client_id])
+      if @application.privileged? && (@user = User.authenticate(params[:username], params[:password])).present?
         @access_token                   = Doorkeeper::AccessToken.new
         @access_token.resource_owner_id = @user.id
         @access_token.application_id    = @application.id
         @access_token.expires_in        = nil
         @access_token.save
-        # Yeah, this is extremeley messy.
         render :inline => access_token, :status => 200
       else
-        render :nothing => true, :status => 401
+        render :html => "<a href=\"http://www.flickr.com/photos/girliemac/6508102407/\"><img src='http://farm8.staticflickr.com/7006/6508102407_4daeef6529_o.jpg'/></a>", :status => 418
       end
     else
-      render :nothing => true, :status => 400
+      render :html => "<img src=\"/assets/potato.gif\"/>", :status => 400
     end
   end
 

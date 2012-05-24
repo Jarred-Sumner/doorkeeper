@@ -26,10 +26,11 @@ class CreateDoorkeeperTables < ActiveRecord::Migration
     add_index :oauth_access_grants, :token, :unique => true
 
     create_table :oauth_access_tokens do |t|
-      t.string  :resource_owner_id, :null => false
-      t.string  :application_id,    :null => false
-      t.string   :token,             :null => false
-      t.string   :refresh_token
+      t.string    :resource_owner_id, :null => false
+      t.string    :application_id,    :null => false
+      t.string    :token,             :null => false
+      t.string    :refresh_token
+      t.boolean   :api_key            :default => false
       t.integer  :expires_in
       t.datetime :revoked_at
       t.datetime :created_at,        :null => false

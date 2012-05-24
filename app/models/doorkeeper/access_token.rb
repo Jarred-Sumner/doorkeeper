@@ -19,6 +19,7 @@ module Doorkeeper
     before_validation :generate_refresh_token, :on => :create, :if => :use_refresh_token?
     
     attr_accessible :application_id, :resource_owner_id, :use_refresh_token, :scopes, :expires_in
+    attr_readonly :api_key
     def self.revoke_all_for(application_id, resource_owner)
       where(:application_id => application_id,
               :resource_owner_id => resource_owner.id).delete_all
