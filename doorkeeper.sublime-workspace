@@ -107,7 +107,7 @@
 			"file": "app/models/doorkeeper/application.rb",
 			"settings":
 			{
-				"buffer_size": 2646,
+				"buffer_size": 2525,
 				"line_ending": "Unix"
 			}
 		},
@@ -124,14 +124,6 @@
 			"settings":
 			{
 				"buffer_size": 507,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "lib/generators/doorkeeper/templates/migration.rb",
-			"settings":
-			{
-				"buffer_size": 1596,
 				"line_ending": "Unix"
 			}
 		}
@@ -220,6 +212,8 @@
 	},
 	"file_history":
 	[
+		"/Users/jarred/Builds/doorkeeper/lib/generators/doorkeeper/templates/migration.rb",
+		"/Users/jarred/Builds/doorkeeper/app/models/doorkeeper/application.rb",
 		"/Users/jarred/Builds/doorkeeper/spec/generators/tmp/dummy/app/views/doorkeeper/applications/index.html.erb",
 		"/Users/jarred/Builds/doorkeeper/app/views/doorkeeper/applications/index.html.erb",
 		"/Users/jarred/Builds/doorkeeper/spec/dummy/app/models/user.rb",
@@ -228,14 +222,12 @@
 		"/Users/jarred/Builds/doorkeeper/app/controllers/doorkeeper/authorizations_controller.rb",
 		"/Users/jarred/Builds/doorkeeper/app/models/doorkeeper/access_token.rb",
 		"/Users/jarred/Builds/doorkeeper/app/controllers/doorkeeper/authorized_applications_controller.rb",
-		"/Users/jarred/Builds/doorkeeper/lib/generators/doorkeeper/templates/migration.rb",
 		"/Users/jarred/Builds/doorkeeper/lib/doorkeeper/oauth/access_token_request.rb",
 		"/Users/jarred/Builds/doorkeeper/app/controllers/doorkeeper/applications_controller.rb",
 		"/Users/jarred/Builds/doorkeeper/config/routes.rb",
 		"/Users/jarred/Builds/doorkeeper/spec/support/shared/models_shared_examples.rb",
 		"/Users/jarred/Builds/doorkeeper/spec/dummy/db/migrate/20111122132257_create_users.rb",
 		"/Users/jarred/Builds/doorkeeper/app/controllers/doorkeeper/tokens_controller.rb",
-		"/Users/jarred/Builds/doorkeeper/app/models/doorkeeper/application.rb",
 		"/Users/jarred/Builds/doorkeeper/app/views/layouts/doorkeeper/application.html.erb",
 		"/Users/jarred/Builds/doorkeeper/lib/doorkeeper/oauth/authorization/token.rb",
 		"/Users/jarred/Builds/doorkeeper/spec/factories/access_token.rb",
@@ -522,7 +514,7 @@
 			]
 		},
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -530,15 +522,15 @@
 					"file": "app/models/doorkeeper/application.rb",
 					"settings":
 					{
-						"buffer_size": 2646,
+						"buffer_size": 2525,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1361,
-								1361
+								1756,
+								1756
 							]
 						],
 						"settings":
@@ -548,7 +540,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 336.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -600,34 +592,6 @@
 						"settings":
 						{
 							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "lib/generators/doorkeeper/templates/migration.rb",
-					"settings":
-					{
-						"buffer_size": 1596,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1596,
-								1596
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -687,6 +651,10 @@
 		"selected_items":
 		[
 			[
+				"application",
+				"app/models/doorkeeper/application.rb"
+			],
+			[
 				"migration",
 				"lib/generators/doorkeeper/templates/migration.rb"
 			],
@@ -705,10 +673,6 @@
 			[
 				"create_door",
 				"spec/dummy/db/migrate/20111206151426_create_doorkeeper_tables.rb"
-			],
-			[
-				"application",
-				"app/models/doorkeeper/application.rb"
 			],
 			[
 				"access_token",
