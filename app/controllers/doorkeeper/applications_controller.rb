@@ -18,6 +18,7 @@ module Doorkeeper
         redirect_to @application, :status => 200
       else
         render :status => 500
+      end
     end
     
     def show
