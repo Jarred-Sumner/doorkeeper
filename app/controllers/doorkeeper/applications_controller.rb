@@ -14,9 +14,10 @@ module Doorkeeper
 
     def create
       @application = Application.new(params[:application])
-      render :status => 500 if @application.owner_id != current_resource_owner.id
-      flash[:notice] = "Application created" if @application.save
-      redirect_to @application
+      if @application.owner_id == current_resource_owner.id && @application.save
+        redirect_to @application, :status => 200
+      else
+        render :status => 500
     end
     
     def show

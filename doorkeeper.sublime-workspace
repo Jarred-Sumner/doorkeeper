@@ -104,22 +104,6 @@
 	"buffers":
 	[
 		{
-			"file": "app/controllers/doorkeeper/applications_controller.rb",
-			"settings":
-			{
-				"buffer_size": 1337,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/doorkeeper/application.rb",
-			"settings":
-			{
-				"buffer_size": 2506,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/controllers/doorkeeper/authorizations_controller.rb",
 			"settings":
 			{
@@ -220,11 +204,11 @@
 	},
 	"file_history":
 	[
+		"/Users/jarred/Builds/doorkeeper/app/models/doorkeeper/application.rb",
+		"/Users/jarred/Builds/doorkeeper/app/controllers/doorkeeper/applications_controller.rb",
 		"/Users/jarred/Builds/doorkeeper/config/routes.rb",
 		"/Users/jarred/Builds/doorkeeper/app/controllers/doorkeeper/authorizations_controller.rb",
 		"/Users/jarred/Builds/doorkeeper/lib/doorkeeper/oauth/access_token_request.rb",
-		"/Users/jarred/Builds/doorkeeper/app/models/doorkeeper/application.rb",
-		"/Users/jarred/Builds/doorkeeper/app/controllers/doorkeeper/applications_controller.rb",
 		"/Users/jarred/Builds/doorkeeper/app/controllers/doorkeeper/authorized_applications_controller.rb",
 		"/Users/jarred/Builds/doorkeeper/spec/dummy/db/schema.rb",
 		"/Users/jarred/Builds/doorkeeper/lib/generators/doorkeeper/templates/migration.rb",
@@ -517,65 +501,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/controllers/doorkeeper/applications_controller.rb",
-					"settings":
-					{
-						"buffer_size": 1337,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								844,
-								844
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/models/doorkeeper/application.rb",
-					"settings":
-					{
-						"buffer_size": 2506,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1785,
-								1796
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 412.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -583,7 +510,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 0,
 					"file": "app/controllers/doorkeeper/authorizations_controller.rb",
 					"settings":
 					{
@@ -605,13 +532,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 10.0,
-						"translation.y": 121.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 1,
 					"file": "lib/generators/doorkeeper/templates/migration.rb",
 					"settings":
 					{
@@ -622,8 +549,8 @@
 						"selection":
 						[
 							[
-								325,
-								325
+								1596,
+								1596
 							]
 						],
 						"settings":
@@ -690,6 +617,10 @@
 		"selected_items":
 		[
 			[
+				"applications_controller",
+				"app/controllers/doorkeeper/applications_controller.rb"
+			],
+			[
 				"routes",
 				"config/routes.rb"
 			],
@@ -704,10 +635,6 @@
 			[
 				"authorizations_controller",
 				"app/controllers/doorkeeper/authorizations_controller.rb"
-			],
-			[
-				"applications_controller",
-				"app/controllers/doorkeeper/applications_controller.rb"
 			],
 			[
 				"authorized_app",
