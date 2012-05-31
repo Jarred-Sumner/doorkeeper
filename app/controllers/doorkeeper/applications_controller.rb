@@ -38,7 +38,7 @@ module Doorkeeper
 
     def destroy
       @application = Application.find_by_uid_and_owner_id(params[:id], current_resource_owner.id)
-      #flash[:notice] = "Application deleted" if @application.destroy
+      flash[:notice] = "Application deleted" if @application.destroy
       redirect_to applications_url
     end
   end

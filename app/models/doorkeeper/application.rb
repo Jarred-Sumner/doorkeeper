@@ -23,7 +23,7 @@ module Doorkeeper
 
     before_validation :generate_uid, :generate_secret, :generate_api_key!, :on => :create
 
-    attr_accessible :name, :redirect_uri, :uid, :secret, :redirect_uri, :owner_id
+    attr_accessible :name, :redirect_uri, :uid, :secret, :redirect_uri
     attr_readonly :privileged, :api_key
 
     def self.column_names_with_table
