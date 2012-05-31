@@ -16,7 +16,7 @@ module Doorkeeper
       @application = Application.new(params[:application])
       @application.owner_id = current_resource_owner.id
       if @application.save
-        redirect_to @application, :status => 200
+        redirect_to @application
       else
         render :new
       end
