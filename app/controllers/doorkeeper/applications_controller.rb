@@ -14,10 +14,11 @@ module Doorkeeper
 
     def create
       @application = Application.new(params[:application])
-      if @application.owner_id = current_resource_owner.id && @application.save
+      if @application.owner_id == current_resource_owner.id && @application.save
         redirect_to @application, :status => 200
       else
-        render :status => 500, :nothing => true
+        redirect_to edit_applications_url
+        #render :status => 500, :nothing => true
       end
     end
     
@@ -38,7 +39,8 @@ module Doorkeeper
     def destroy
       @application = Application.find_by_uid_and_owner_id(params[:id], current_resource_owner.id)
       flash[:notice] = "Application deleted" if @application.destroy
-      redirect_to applications_url
+      redirect_to 
+      
     end
   end
 end
