@@ -19,7 +19,7 @@
         <tr id="application_<%= application.id %>">
           <td><%= link_to application.name, application %></td>
           <td><%= application.redirect_uri %></td>
-          <td><%= link_to 'Edit', edit_application_path(application) %></td>
+          <td><a href="/v1/oauth/applications/#{application.uuid}/edit">Edit</a></td>
           <td><%= link_to 'Destroy', application, :confirm => 'Are you sure?', :method => :delete %></td>
         </tr>
       <% end %>
